@@ -1,0 +1,83 @@
+body {
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: meatball, sans-serif;
+    font-size: 3.5em;
+}
+
+h2, h3, h4 {
+    font-family: myriad-pro, sans-serif;
+    font-weight: 600;
+}
+
+h5 {
+    font-family: tekton-pro-extended, sans-serif;
+}
+
+p, li {
+    font-family: josefin-sans,sans-serif;
+}
+
+u {
+    text-decoration-color: #ffc107;
+}
+
+.hobbies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* --------MEDIA QUEYRIES----------- */
+
+@media (max-width: 574.98px) {
+    body {
+        font-size: 1.2rem;
+    }
+
+    .hobbies {
+        font-size: 0.8rem;
+        margin-left: -45px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 767.98px) {
+    body {
+        font-size: 1.2rem;
+    }
+
+    .hobbies {
+        font-size: 0.8rem;
+        margin-left: -45px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    body {
+        font-size: 1rem;
+    }
+
+    .hobbies {
+        font-size: 0.8rem;
+        margin-left: -45px;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        font-size: 1.2rem;
+    }
+
+    .hobbies {
+        font-size: 1rem;
+        justify-content: start;
+    }
+}
