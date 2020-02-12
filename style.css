@@ -3,6 +3,12 @@ body {
     font-style: normal;
 }
 
+.wrapper{
+    width: 100%;
+    max-width: 1230px;
+    box-sizing: border-box;
+}
+
 h1 {
     font-family: meatball, sans-serif;
     font-size: 3.5em;
