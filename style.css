@@ -1,17 +1,14 @@
-body {
+.wrapper {
+    width: 100%;
+    max-width: 1230px;
+    box-sizing: border-box;
     font-weight: 400;
     font-style: normal;
 }
 
-.wrapper{
-    width: 100%;
-    max-width: 1230px;
-    box-sizing: border-box;
-}
-
 h1 {
     font-family: meatball, sans-serif;
-    font-size: 3.5em;
+    font-size: 2.5em;
 }
 
 h2, h3, h4 {
@@ -21,6 +18,7 @@ h2, h3, h4 {
 
 h5 {
     font-family: tekton-pro-extended, sans-serif;
+    font-weight: 600;
 }
 
 p, li {
@@ -37,21 +35,21 @@ u {
     justify-content: center;
 }
 
-
 /* --------MEDIA QUEYRIES----------- */
 
 @media (max-width: 574.98px) {
     body {
         font-size: 1.2rem;
     }
-
     .hobbies {
         font-size: 0.8rem;
         margin-left: -45px;
     }
-
     h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
+    }
+    .tel {
+        display: block;
     }
 }
 
@@ -59,31 +57,48 @@ u {
     body {
         font-size: 1.2rem;
     }
-
     .hobbies {
-        font-size: 0.8rem;
-        margin-left: -45px;
+        font-size: 0.9rem;
+        margin: 0 0 0 -3.5rem;
+        justify-content: space-around;
+    }
+    .tel {
+        display: block;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1199.98px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
     body {
-        font-size: 1rem;
+        font-size: 1.1rem;
+    }
+    .hobbies {
+        font-size: 0.8rem;
+        margin: 0 0 0 -3.5rem;
+    }
+    .tel {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    body {
+        font-size: 1.1rem;
     }
 
     .hobbies {
-        font-size: 0.8rem;
-        margin-left: -45px;
+        font-size: 0.9rem;
+        justify-content: space-between;
+        margin: 0 0 0 -3.5rem;
     }
 }
 
 @media (min-width: 1200px) {
     body {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
-
     .hobbies {
-        font-size: 1rem;
-        justify-content: start;
+        font-size: 1.1rem;
+        justify-content: space-between;
+        margin: 0 0 0 -3.5rem;
     }
 }
